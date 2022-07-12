@@ -9,7 +9,7 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
-    "antd": "^3.19.3",
+    "antd": "^4.21.6",
     "axios": "^0.21.1",
     "http-proxy-middleware": "^1.0.6",
     "moment": "^2.29.1",
@@ -18,7 +18,7 @@
     "react-moment": "^1.1.1",
     "react-redux": "^7.2.2",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.2",
+    "react-scripts": "^5.0.1",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
@@ -45,7 +45,7 @@
       "not dead",
       "not op_mini all"
     ],
-  "development": [
+    "development": [
       ">0.3%",
       "not ie 11",
       "not dead",

@@ -7,7 +7,7 @@ import Eudcation from "./Education";
 import Spinner from "../layout/Spinner";
 import { connect } from "react-redux";
 import { DashboardActions } from "./DashboardActions";
-import Chat from "../Chat/Chat";
+// import Chat from "../Chat/Chat";
 import { deleteAccount, getCurrentProfile } from "../../actions/profile";
 import Education from "./Education";
 
@@ -39,13 +39,13 @@ function Dashboard({
             <button className="btn btn-danger" onClick={() => deleteAccount()}>
               <i className="fas fa-user-minus"></i>Delete Account
             </button>
-            <button
+            {/* <button
               className="btn btn-danger"
               onClick={ () =><Route exact path="/chat" component={Chat} />}
             >
               <i className="fas fa-comment-alt"></i>
               Chat
-            </button>
+            </button> */}
           </div>
         </Fragment>
       ) : (
